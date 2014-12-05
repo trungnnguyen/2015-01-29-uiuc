@@ -97,51 +97,37 @@ eventbrite: 10121948019
 
 <hr/>
 
-<!--
-  Show the workshop's schedule.  Edit the items and times in the table
-  to match your plans.  You may also want to change 'Day 1' and 'Day
-  2' to be actual dates or days of the week.
--->
 <h2>Schedule</h2>
 
 <div class="row-fluid">
   <div class="span6">
-    <h3>Day 1</h3>
+    <h3>Day 1 • 29 January</h3>
     <table class="table table-striped">
-      <tr> <td>09:00</td>  <td>Automating tasks with the Unix shell</td> </tr>
-      <tr> <td>10:30</td> <td>Coffee</td> </tr>
-      <tr> <td>12:00</td>  <td>Lunch break</td> </tr>
-      <tr> <td>13:00</td>  <td>Building programs with Python</td> </tr>
-      <tr> <td>14:30</td>  <td>Coffee</td> </tr>
-      <tr> <td>16:00</td>  <td>Wrap-up</td> </tr>
+      <tr> <td>08:00</td> <td>Assisting with setup and installation issues</td> </tr>
+      <tr> <td>08:30</td> <td>Automating tasks with the Unix shell</td> </tr>
+      <tr> <td>10:30</td> <td>Break</td> </tr>
+      <tr> <td>12:00</td> <td>Lunch break</td> </tr>
+      <tr> <td>13:00</td> <td>Building programs with Python (Part I)</td> </tr>
+      <tr> <td>14:30</td> <td>Break</td> </tr>
+      <tr> <td>16:30</td> <td>Wrap-up</td> </tr>
     </table>
   </div>
   <div class="span6">
-    <h3>Day 2</h3>
+    <h3>Day 2 • 30 January</h3>
     <table class="table table-striped">
-      <tr> <td>09:00</td>  <td>Version control with Git</td> </tr>
-      <tr> <td>10:30</td>  <td>Coffee</td> </tr>
-      <tr> <td>12:00</td>  <td>Lunch break</td> </tr>
-      <tr> <td>13:00</td>  <td>Managing data with SQL</td> </tr>
-      <tr> <td>14:30</td>  <td>Coffee</td> </tr>
-      <tr> <td>16:00</td>  <td>Wrap-up</td> </tr>
+      <tr> <td>08:30</td> <td>Version control with Git</td> </tr>
+      <tr> <td>10:30</td> <td>Break</td> </tr>
+      <tr> <td>12:00</td> <td>Lunch break</td> </tr>
+      <tr> <td>13:00</td> <td>Building programs with Python (Part II)</td> </tr>
+      <tr> <td>14:30</td> <td>Break</td> </tr>
+      <tr> <td>16:30</td> <td>Wrap-up</td> </tr>
     </table>
   </div>
 </div>
 
-<!--
-  Display the Etherpad for the workshop.  You will probably set this
-  up on the first day, so make sure you push changes to GitHub after
-  you have its URL.  To create an Etherpad, go to
-
-      http://etherpad.mozilla.org/YYYY-MM-DD-site
-
-  where 'YYYY-MM-DD-site' is the identifier for your workshop (e.g.,
-  '2015-06-10-esu'.
--->
 {% if page.etherpad %}
 <p>
-  <strong>Etherpad:</strong> <a href="{{page.etherpad}}">{{page.etherpad}}</a>.
+  <strong><a href="{{page.etherpad}}">Etherpad</a></strong>.
   <br/>
   We will use this Etherpad for chatting, taking notes, and sharing URLs and bits of code.
 </p>
@@ -189,6 +175,7 @@ eventbrite: 10121948019
       <li>Loops and conditionals</li>
       <li>Defensive programming</li>
       <li>Using Python from the command line</li>
+      <li>Integrated data management example</li>
       <li><a href="{{site.swc_lessons}}/ref/03-python.html">Reference...</a></li>
     </ul>
   </div>
@@ -220,20 +207,6 @@ eventbrite: 10121948019
       <li>Open licenses</li>
       <li>Where to host work, and why</li>
       <li><a href="{{site.swc_lessons}}/ref/02-git.html">Reference...</a></li>
-    </ul>
-  </div>
-  <div class="span6">
-    <h3>Managing Data with SQL</h3>
-    <ul>
-      <li>Reading and sorting data</li>
-      <li>Filtering with <code>where</code></li>
-      <li>Calculating new values on the fly</li>
-      <li>Handling missing values</li>
-      <li>Combining values using aggregation</li>
-      <li>Combining information from multiple tables using <code>join</code></li>
-      <li>Creating, modifying, and deleting data</li>
-      <li>Programming with databases</li>
-      <li><a href="{{site.swc_lessons}}/ref/04-sql.html">Reference...</a></li>
     </ul>
   </div>
 </div>
@@ -477,7 +450,7 @@ eventbrite: 10121948019
   </div>
 </div> <!-- End of 'Python' section. -->
 
-<div> <!-- Start of 'R' section. -->
+<!--<div> <!-- Start of 'R' section. -->
   <h3>R</h3>
 
   <p>
@@ -521,8 +494,8 @@ eventbrite: 10121948019
     </div>
   </div>
 </div> <!-- End of 'R' section. -->
-
-<div> <!-- Start of 'SQLite' section. -->
+-->
+<!--<div> <!-- Start of 'SQLite' section. -->
   <h3>SQLite</h3>
 
   <p>
@@ -554,7 +527,7 @@ eventbrite: 10121948019
     </div>
   </div>
 </div> <!-- End of 'SQLite' section. -->
-
+-->
 <!--
   Uncomment this section if you are using our virtual machine.
 
